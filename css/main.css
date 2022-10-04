@@ -1,0 +1,308 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+
+nav{
+        
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+ 
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;}
+    
+    nav ul li{
+        display: inline-block;
+        padding: 8px;
+        margin: 0 4px;
+        text-decoration:none;
+    }
+    
+nav ul li a{
+text-decoration: none;
+font-size: 12px;
+justify-content: center;
+color: aliceblue;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    /* background-color: rgb(250, 228, 253); */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.contenedor .content_home{
+    width: 70vh;
+    
+}
+    
+.contenedor .nav_pic{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(250, 228, 253);  */
+    height: 300px;
+    width:100;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px rgb(20, 57, 220) ;
+    border-radius: 10%;
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+    
+
+
+.contenedor .nav_pic .contenedor_img_home{
+    height: 100%;
+    width: 300px;
+    border: solid 2px crimson ;
+    object-fit: cover;
+    display: absolute;
+}
+.contenedor .nav_pic .contenedor_img_home .imagen_navegador_img{
+width: 100%;
+height: 100%;
+    }
+
+    footer{
+        font-size: 11px;
+        background-color: black; 
+        
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    bottom: 0;
+    }
+    .footer_reader{
+        font-size: 11px;
+        background-color: black; 
+        
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    margin-top: 57%;
+    bottom: 0;
+    }
+    footer p {
+        height: 6px;
+        font-style: italic;
+    }
+    footer h4{
+        height: 6px;
+    }
+    footer img{
+        height: 22px;
+        width:22px;
+    }
+    footer div ul li {
+      
+        display: inline-block;
+        text-decoration: none;
+        
+    }
+    .contenedor_readers{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(250, 228, 253) ;
+    }
+    
+    .reader_1{
+        width: 100%;
+        max-height: 75%;
+   
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between; 
+    background: linear-gradient(rgba(7,5,12,0.9),rgba(7,5,12,0.9)), url("../img/imagen.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.material{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(7,5,12,0.9),rgba(7,5,12,0.9));
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 200px;
+}
+.material img{
+    width: 20vh;
+    height: 20vh;
+ 
+        }
+    
+        .reader_1 .skater1{
+        height: 300px;
+        display: relative;
+        
+    }
+    .reader_1 p{
+        font-size: 10px;
+    }
+    
+    .reader_1 .skater1 img{
+        margin-right: 180px;
+        max-height: 80%;
+        max-width: 100%;
+        margin-top: 2px;
+        display: absolute;
+    }
+.productos nav{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(250, 228, 253) ;
+}.productos nav ul li a {color: cornflowerblue;}
+.contenedor_categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor_categorias .categorias .deck_texto p{
+height: 2px;
+font-size: 7px;
+display: absolute;
+bottom:0cm;
+}
+.contenedor_categorias .categorias .deck_texto h5{
+height: 2px;
+font-size: 14px;
+display: absolute;
+bottom:0cm;
+}
+h3{
+    width: 100%;
+    height: 29px;
+    background-color:rgb(5, 5, 5) ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 0;
+    border: solid 1.5px rgb(38, 38, 39);
+    z-index: 1;
+}
+.contenedor_categorias .categorias{
+    display: flex;
+    flex-direction: column;
+    max-height: 280px;
+    max-width: 140px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.contenedor_categorias .categorias img{
+    
+  height: 270px;
+    width: 135px;
+    object-fit: cover;
+    
+}
+.footer_productos{
+    width: 100%;
+}
+.galeria{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 5px;
+    background: linear-gradient(rgba(7,5,12,0.95),rgba(7,5,12,0.95)) ,url("../img/fondo_home_img.jpg");
+    justify-content: baseline;
+}
+.galeria .galeria_column{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+   
+}
+.galeria .galeria_column img {
+    
+    height: auto;   
+    width: 100%;
+   padding: 2px;
+}
+.contacto{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(7,5,12,0.95),rgba(7,5,12,0.95)) ,url("../img/fondo_home_img.jpg");
+}
+.content_contacto{
+    margin-top: 10px;
+    font-size: 8px;
+    height: 85%;
+    width: 500px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+    background-color: antiquewhite;
+
+}
+.content_contacto label{
+    display: inline-block;
+    width: 70px;
+    margin: 3px 3px 3px 3px;
+    margin-top: 3px;
+
+}
+.content_contacto input{
+    display: inline-block;
+
+    margin: 3px 3px 3px 3px;
+    margin-top: 3px;
+
+}
+.content_contacto img{
+    height: 60px;
+    width: 60px;
+}
